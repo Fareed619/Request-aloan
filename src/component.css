@@ -1,0 +1,93 @@
+
+.flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+body{
+    background:rgb(115, 159, 159) ;
+}
+
+
+.container {
+    margin-top: 150px;
+    width:100%;
+    flex-direction: column;
+   
+
+   
+
+}
+form {
+    flex-direction: column;
+    width: 50%;
+    background-color: teal;
+   
+    color:#fff;
+    border-radius:6px;
+    font-size:18px;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.4)
+    
+    
+   
+}
+hr {
+    width:90%;
+}
+input, select {
+    width: 90%;
+    border: none;
+    height: 20px;
+    border: none;
+   
+}
+.check {
+    width:20px;
+    height: 19px;
+    
+   
+    
+}
+button {
+    margin:10px 0;
+    padding:13px;
+    border:none;
+    background: rgb(211, 0, 73);
+    border-radius: 2px;
+    color:#fff;
+  
+
+}
+
+label {
+    margin:4px 0;
+}
+.model-content {
+    
+   background-color: #fff;
+   width:90%;
+   color:green;
+  
+
+  
+
+}
+
+.model {
+    
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.727);
+    width:100vw;
+    height: 100vh;
+   
+
+}
+.Disabled {
+    background-color: gray !important ;
+
+}
